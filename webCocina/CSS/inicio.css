@@ -1,0 +1,96 @@
+/* Estilos Generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5; /* Fondo suave y neutral */
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h4 {
+    text-align: center;
+    color: #343a40; /* Color oscuro para el título */
+    margin-top: 20px;
+}
+
+/* Estilos para la Barra de Navegación */
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    margin-right: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Cambio de color en hover */
+}
+
+/* Estilos para el Contenido */
+h4 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+/* Estilos para el Encabezado */
+h1 {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+}
+
+/* Estilo para Acentuar los Botones */
+.btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+#modelo{
+    padding: 100px;
+}
+
+.fixed-size {
+    width: 100%; /* Ajusta la imagen al ancho del modal */
+    max-width: 600px; /* Puedes ajustar el tamaño máximo según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el área definida */
+    display: block; /* Elimina cualquier espacio extra alrededor de la imagen */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .modal-body strong,
+  .modal-body li {
+    max-width: 600px; /* Ancho máximo para el texto */
+    line-height: 1.5; /* Mejora la legibilidad */
+    margin-bottom: 10px; /* Espacio inferior para separación entre líneas */
+    display: inline-block; /* Asegura que el max-width se aplique correctamente */
+    word-wrap: break-word; /* Permite que las palabras largas se dividan y envuelvan */
+    text-align: justify; /* Justifica el texto para un aspecto más uniforme */
+  }
+    
